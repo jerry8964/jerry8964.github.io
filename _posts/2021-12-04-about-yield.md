@@ -1,11 +1,25 @@
 ---
 layout: post
-title: "About iterator/generator"
+title: "About iterator and generator"
 date:   2021-12-04
 tags: [python]
 comments: true
 author: Jerry8964
 ---
+
+
+
+
+
+## 概念
+
+迭代器与生成器通常一起出现，在概念上很容易分不清楚。
+
+迭代器就是用于迭代操作（for循环）的对象，它像列表一样可以迭代获取里面的每一个元素，任何实现了`__next__()`方法的对像，都可以称之为迭代器。
+
+简单来说，生成器本质上还是一个迭代器，唯一的区别在于实现方式上的区别，生成器的实现更简单，只需要使用`yield`关键字即可。
+
+迭代器、生成器与列表的本质区别是，不会一次性将所有的元素加载到内存，对内存的要求更低（更节省内存）。
 
 
 
@@ -111,7 +125,7 @@ print(next(it))
 
 ### others
 
-一些迭代器生成的方法。
+用好关于迭代器的内建函数。
 
 1. `enumerate`可以接收一个可迭代的对象（如：列表），然后返回一个带下标的可迭代对象。
 
@@ -144,7 +158,31 @@ print(next(it))
            print(name, age)
    ```
 
+3. `islice`接收一个可以迭代的对象，按指定的步长进行遍历。
 
+   > itertools.islice(iterable, start, stop[, step])
+   >
+   > start: 起始位置，start为None的时候，从最初的位置0开始
+   >
+   > stop: 结束位置，stop为None的时候，直至输入的可迭代对象耗尽。
+   >
+   > step: 步长，省略时默认为1
+
+   ```python
+   list1 = [1, 2, 3, 4, 5, 6]
+   for number in islice(list1, None, None, 2):
+       print(number)
+   ```
+
+   结果：
+
+   ```
+   1
+   3
+   5
+   ```
+
+   
 
 ## 生成器（generator)
 
