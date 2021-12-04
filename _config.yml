@@ -63,8 +63,8 @@ footer-text: Copyright (c) 2020 Jerry8964
 
 # Gitalk
 gitalk:
-  clientID: 
-  clientSecret: 
+  clientID: 1f701ccece34f2186aad
+  clientSecret: 726e5c0d711b3549b6fb0471e1a25e9c7b196183
   repo: jerry8964.github.io
   owner: Jerry8964
 
