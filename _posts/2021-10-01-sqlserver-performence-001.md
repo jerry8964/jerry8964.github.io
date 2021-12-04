@@ -1,6 +1,6 @@
 ---
 layout: post
-title: ""
+title: "About Performence of SQL Server"
 date: 2021-10-01
 tags: [sql-server, database]
 comments: true

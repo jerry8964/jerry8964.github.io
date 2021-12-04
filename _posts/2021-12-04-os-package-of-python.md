@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "os package"
-date:   2021-12-04
+date: 2021-12-04
 tags: [python]
 comments: true
 author: Jerry8964
