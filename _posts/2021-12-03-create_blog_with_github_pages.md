@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "初めて"
-date:   2021-11-22
+date:   2021-12-03
 tags: [Doc, Content]
 comments: true
 author: Jerry8964
@@ -15,8 +15,10 @@ author: Jerry8964
 顺便可能也会在这里发一些牢骚以及在日本看到的一些现象和思考
 
 ```python
-print("Hello world!")
+print("これから、よろしくね。")
 ```
 
 
+
+--end--
 

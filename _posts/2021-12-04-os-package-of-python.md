@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "os package"
-date:   2021-11-22
+date:   2021-12-04
 tags: [python]
 comments: true
 author: Jerry8964
@@ -33,8 +33,10 @@ os.environ["python_home"] = "C:\Users\your_python_path"
 
 
 
-
-
 更多的关于`os`使用方法的内容，可以参照下面官方文档：
 
 [https://docs.python.org/zh-cn/3/library/os.html ](https://docs.python.org/zh-cn/3/library/os.html "多种操作系统接口")
+
+
+
+--end--
