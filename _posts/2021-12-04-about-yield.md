@@ -2,16 +2,10 @@
 layout: post
 title: "About iterator/generator"
 date:   2021-12-04
-tags: [Doc, Content]
+tags: [python]
 comments: true
 author: Jerry8964
 ---
-
-## iterator
-
-
-
-
 
 
 
@@ -64,8 +58,6 @@ print(next(it))
 > print(next(myiter))
 > print(next(myiter))
 > print(next(myiter))
-> print(next(myiter))
-> print(next(myiter))
 > ```
 >
 > 执行结果 
@@ -74,8 +66,6 @@ print(next(it))
 > 1
 > 2
 > 3
-> 4
-> 5
 > ```
 
 
@@ -84,7 +74,7 @@ print(next(it))
 
 `StopIteration `异常用于标识迭代的完成，防止出现无限循环的情况，在 __next__() 方法中我们可以设置在完成指定循环次数后触发 StopIteration 异常来结束迭代。
 
-> 在 20 次迭代后停止执行：
+> 在 5次迭代后停止执行：
 >
 > ```python
 > class MyNumbers:
@@ -93,7 +83,7 @@ print(next(it))
 >     return self
 >  
 >   def __next__(self):
->     if self.a <= 20:
+>     if self.a <= 5:
 >       x = self.a
 >       self.a += 1
 >       return x
@@ -115,21 +105,6 @@ print(next(it))
 > 3
 > 4
 > 5
-> 6
-> 7
-> 8
-> 9
-> 10
-> 11
-> 12
-> 13
-> 14
-> 15
-> 16
-> 17
-> 18
-> 19
-> 20
 > ```
 
 
@@ -175,7 +150,7 @@ print(next(it))
 
 在 Python 中，使用了 yield 的函数被称为生成器（generator）。
 
-跟普通函数不同的是，生成器是一个返回迭代器的函数，只能用于迭代操作，更简单点理解生成器就是一个迭代器。
+跟普通函数不同的是，生成器是一个返回迭代器的函数，只能用于迭代操作，更简单点理解生成器就是一个迭代器，但是只有在使用的时候才会生成，并不是一次性全部生成好。
 
 在调用生成器运行的过程中，每次遇到 yield 时函数会暂停并保存当前所有的运行信息，返回 yield 的值, 并在下一次执行 next() 方法时从当前位置继续运行。
 
@@ -217,7 +192,7 @@ while True:
 
 **在Python开发过程中，为了避免程序占用过多的内存，特别是在处理大量的数据的时候，建议多使用`yield`关键字**
 
-* 更多的使用`yield`关键字，反正生成器对象，而不是直接返回列表。（由于生成器（Generator）对象，是在被引用到的时候才会计算生成，所以不会大量的占用内存）
+* 更多的使用`yield`关键字，返回生成器对象，而不是直接返回全部值。（由于生成器（Generator）对象，是在被引用到的时候才会计算生成，所以不会大量的占用内存）
 
 * 使用生成器表达式，代替列表表达式
 
