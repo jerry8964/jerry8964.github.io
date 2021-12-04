@@ -1,6 +1,6 @@
 ---
-layout:post
-title: "Empty,NULL,Nothing,\"\", vbNullString"
+layout: post
+title: "Empty/NULL/Nothing/空字符串/vbNullString"
 date: 2021-09-02
 tags: [vba]
 comments: true
