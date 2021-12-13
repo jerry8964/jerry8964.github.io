@@ -2,7 +2,7 @@
 layout: post
 title: "VLOOKUP"
 date: 2021-12-07
-tags: [vba, japanese]
+tags: [vba]
 comments: true
 author: Jerry8964
 ---

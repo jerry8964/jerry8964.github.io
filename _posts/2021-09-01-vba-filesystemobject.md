@@ -2,7 +2,7 @@
 layout: post
 title: "FileSystemObjectについて"
 date: 2021-09-01
-tags: [vba, japanese]
+tags: [vba]
 comments: true
 author: Jerry8964
 ---

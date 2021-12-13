@@ -2,7 +2,7 @@
 layout: post
 title: "Salesforce Learning Note"
 date: 2021-12-13
-tags: [salesforce, japanese]
+tags: [salesforce]
 comments: true
 author: Jerry8964
 ---
