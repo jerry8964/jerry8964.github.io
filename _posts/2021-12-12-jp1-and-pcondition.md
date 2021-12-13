@@ -96,7 +96,9 @@ Agentはジョブの実行、実行結果をMangerに報告すること。
 
 図：JP1/AJS3システム構成例
 
-![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/imagesjp1-000001.JPG)
+![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/images/jp1-000001.jpg)
+
+
 
 * システム構成 
 
