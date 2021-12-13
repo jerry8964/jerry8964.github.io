@@ -2,7 +2,7 @@
 layout: post
 title:  "サクラエディタ"
 date: 2021-08-01
-tags: [vba, regex]
+tags: [vba, regex, japanese]
 comments: true
 author: Jerry8964
 ---

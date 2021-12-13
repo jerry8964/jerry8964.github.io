@@ -2,7 +2,7 @@
 layout: post
 title: "JP1について、簡単の説明"
 date: 2021-12-12
-tags: [doc]
+tags: [doc, japanese]
 comments: true
 author: Jerry8964
 ---
@@ -86,11 +86,11 @@ Agentはジョブの実行、実行結果をMangerに報告すること。
 
 図：簡単理解JP１
 
-![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/imagesjp1-000002.JPG)
+![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/images/jp1-000002.JPG)
 
 
 
-#### JP1/ASJ3概要
+#### 深く理解JP1（ASJ3）
 
 業務処理を自動化するに当たって、ジョブ管理の中心となる製品である JP1/Automatic Job Management System 3（JP1/AJS3）を導入します。JP1/AJS3 は、自動化する業務 の定義から実行の指示、スケジュールどおりに実行されているかどうかの監視、さらに、 これまでの自動実行の実績管理など、業務を自動運用するために必要なすべての機能を備 えています。業務処理を自動化することで、人手によるオペレーションミスを減らし、安 定して稼働できます。
 

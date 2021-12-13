@@ -2,7 +2,7 @@
 layout: post
 title: "VLOOKUP"
 date: 2021-12-07
-tags: [vba]
+tags: [vba, japanese]
 comments: true
 author: Jerry8964
 ---
@@ -30,21 +30,19 @@ author: Jerry8964
 
 テーブルAから商品名称をテーブルBに転記したい場合。
 
-![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/imagesvlookup-00001.JPG)
+![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/images/vlookup-0001.JPG)
 
 
 
 下記のような入力すれば、自動的にマッピングできます。
 
-![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/imagesvlookup-00002.JPG)
-
-
+![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/images/vlookup-00002.JPG)
 
 > セルのアルファベット（列）と数字（行）の前に`$`を追加すれば、セルを固定値できます。
 
 F3からF7まで選択し、HotKey`Ctrl + D`を押すと、書式の自動コピーができます。
 
-![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/imagesvlookup-00003.JPG)
+![](https://raw.githubusercontent.com/jerry8964/jerry8964.github.io/main/images/vlookup-00003.JPG)
 
 
 

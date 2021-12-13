@@ -2,7 +2,7 @@
 layout: post
 title: "初めて"
 date:   2021-05-01
-tags: [Doc, Content]
+tags: [doc, content]
 comments: true
 author: Jerry8964
 ---
