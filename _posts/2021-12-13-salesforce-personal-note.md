@@ -2,7 +2,7 @@
 layout: post
 title: "Salesforce Learning Note"
 date: 2021-12-13
-tags: [learning]
+tags: [learning, doc]
 comments: true
 author: Jerry8964
 ---
