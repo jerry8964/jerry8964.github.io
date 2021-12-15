@@ -11,5 +11,5 @@ author: Jerry8964
 
 ### github
 
-* [git clone/push/pullを行う(github)](https://itsakura.com/tool-github-git-ssh#s5)
+* [push to github use ssh-key](https://gist.github.com/developius/c81f021eb5c5916013dc)
 
