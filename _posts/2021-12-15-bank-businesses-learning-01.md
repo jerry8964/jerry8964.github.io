@@ -4,6 +4,7 @@ title: "証券用語の1"
 date: 2021-12-15
 tags: [learning, doc]
 comments: true
+toc: true
 author: Jerry8964
 ---
 
