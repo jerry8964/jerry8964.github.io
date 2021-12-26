@@ -4,7 +4,7 @@ title: "About iterator and generator"
 date:   2021-12-04
 tags: [python]
 comments: true
-toc: true
+toc: false
 author: Jerry8964
 ---
 
