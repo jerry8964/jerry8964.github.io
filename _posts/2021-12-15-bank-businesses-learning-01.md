@@ -2,7 +2,7 @@
 layout: post
 title: "証券用語の1"
 date: 2021-12-15
-tags: [learing, doc]
+tags: [learning, doc]
 comments: true
 author: Jerry8964
 ---
