@@ -51,3 +51,4 @@ ls *.csv | Rename-Item -NewName {$_.name -replace "searchString","replaceString"
 
 
 --To be continue--
+
