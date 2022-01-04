@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL-Serverの重いクエリの確定"
+title: "SQL-Serverの重いクエリの特定"
 date:   2022-01-04
 tags: [sql-server, database]
 comments: true
