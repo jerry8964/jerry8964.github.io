@@ -9,11 +9,9 @@ author: Jerry8964
 
 
 
-# SQL-SERVER Database Engine
 
 
-
-## Sp_help***
+## Sp_help**
 
 
 
@@ -21,15 +19,15 @@ author: Jerry8964
 
 ### sp_help
 
-Reports information about a database object (any object listed in the **sys.sysobjects** compatibility view), a user-defined data type, or a data type.
+> Reports information about a database object (any object listed in the **sys.sysobjects** compatibility view), a user-defined data type, or a data type.
 
-
+列出所有Database的信息，用户指定的数据类型或者是一个数据类型。
 
 ### sp_helpdb
 
-Reports information about a specified database or all databases.
+> Reports information about a specified database or all databases.
 
-
+与sp_help一样，只是后面需要指定数据库的名称，列出指定数据库的信息。
 
 ### sp_helpdevice
 
