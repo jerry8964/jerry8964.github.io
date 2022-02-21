@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL-ServerのSp_help***"
+title: "SQL-Server Database Engine"
 date:   2022-01-17
 tags: [sql-server, database]
 comments: true
@@ -103,7 +103,7 @@ Returns a list of all constraint types, their user-defined or system-supplied na
 
 
 
-### others database engine procedure
+## others database engine procedure
 
 [**official documents**](https://docs.microsoft.com/en-us/sql/relational-databases/system-stored-procedures/database-engine-stored-procedures-transact-sql?view=sql-server-ver15)
 
