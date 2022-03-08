@@ -19,7 +19,7 @@ author: Jerry8964
 
 *Where条件によって、青い部分の変化がありますので、ご注意ください。*
 
-![image-20220308203230310](C:\Users\Jerry\AppData\Roaming\Typora\typora-user-images\image-20220308203230310.png)
+![image-20220308203230310](https://github.com/jerry8964/jerry8964.github.io/blob/main/images/image-20220308203230310.png?raw=true)
 
 
 
@@ -33,7 +33,7 @@ Cross Joinは前の結合方法と違って、ONでマッチ条件を指定し�
 
 下記図はCross Joinのイメージです。
 
-<img src="D:\Jerry\Pictures\Cross-Join-Two-Tables-to-Get-Combinations.png" alt="Cross-Join-Two-Tables-to-Get-Combinations" style="zoom: 67%;" />
+<img src="https://github.com/jerry8964/jerry8964.github.io/blob/main/images/Cross-Join-Two-Tables-to-Get-Combinations.png?raw=true" style="zoom: 67%;" />
 
 
 
