@@ -25,6 +25,8 @@ author: Jerry8964
 
 
 
+
+
 ### Cross Joinについて
 
 Cross Joinは前の結合方法と違って、ONでマッチ条件を指定しません。
@@ -39,11 +41,15 @@ Cross Joinは前の結合方法と違って、ONでマッチ条件を指定し�
 
 
 
+
+
 ## Joinの<ruby>アルゴリズム<rt>algorithm</rt></ruby>
 
 Joinのアルゴリズムは3種類があり、SQL-ServerとOracleは同じ3種類全部サポートされています。MySQLはNested Loop Joinのみだそうです。
 
 これから3種類のJoinのアルゴリズムの違いを説明します。
+
+
 
 ### Loop Join 
 
@@ -61,6 +67,8 @@ Loop Joinのアルゴリズムは、下記動画のイメージです[^2]。
 
 
 
+
+
 ### Merge Join
 
 Merge Joinはまず対象テーブルのデータを条件の順番で並べることが必要ですので、Join条件がPKの場合すでにPKの順番で並んでいるので、Merge Joinが一番理想な選択です。テーブルのデータ量が多くてかつJoin条件がPKやSorted Index<font color="red">以外</font>の場合、Merge Joinが時間かかります。この時Merge Joinじゃなくて、Hash Joinがおすすめです。
@@ -74,6 +82,8 @@ MicrosoftオフィシャルサイトにMerge Join関する説明の抜粋下記�
 Merge Joinのアルゴリズムは、下記動画のイメージです。[^2]
 
 ![merge join](https://github.com/jerry8964/jerry8964.github.io/blob/main/images/Merge-Join-1.gif?raw=true)
+
+
 
 ### Hash Join
 
@@ -99,6 +109,10 @@ Hash Joinの実現は下記のイメージです。[^2]
 
 ![Hash join](https://github.com/jerry8964/jerry8964.github.io/blob/main/images/Hash-Match-Join-Looping-1.gif?raw=true)
 
+
+
+
+
 ## 纏め
 
 3種類Joinのアルゴリズムまとめて下記となります。[^3]
@@ -111,11 +125,19 @@ Hash Joinの実現は下記のイメージです。[^2]
 
 
 
+
+
+
+
 ## その他
 
 普通は強制結合指定する必要がないと思います、データサーバーが一般ITエンジニアより賢いだからです。
 
 でも実行プラン一回生成した後、そのまま利用するので、もしテーブルのデータ量や結合対象データなど頻繫に変更する場合SQLに`option(recomplie)`を指定すれば実行プラン再生成できますので、ご利用ください。もちろん対象テーブルのデータ量やデータ量の変化など十分把握できる方は、指定しても大丈夫です。
+
+
+
+
 
 
 
