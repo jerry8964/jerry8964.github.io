@@ -145,8 +145,6 @@ Hash Joinの実現は下記のイメージです。[^2]
 
 #### 参照先
 
----
-
 [^1]:[Microsoft Documentation](https://docs.microsoft.com/ja-jp/sql/relational-databases/performance/joins?view=sql-server-ver15#understanding-nested-loops-joins)
 [^2]:写真や動画などネットから調べたのです。
 [^3]:[纏め部分の参照先](https://docs.microsoft.com/ja-jp/sql/relational-databases/performance/joins?view=sql-server-ver15#understanding-nested-loops-joins)
