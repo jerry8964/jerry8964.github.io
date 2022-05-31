@@ -10,13 +10,11 @@ author: Jerry8964
 
 
 
-<detail><summary>指定した文字列を含めてない行の検索</summary>
+### 指定した文字列を含めてない行の検索
 
-**regex**
+> **regex**
 
-サクラエディタで指定された文字列を含めっていない行を
-
-検索したい場合、下記正規表現を使えば。
+サクラエディタで指定された文字列を含めっていない行を検索したい場合、下記正規表現を使えば。
 
 ```
 ^((?!指定した文字列).)*$
@@ -24,17 +22,13 @@ author: Jerry8964
 
 > 在SakuraEditor里面搜索不包含指定字符的行的时候，可以使用上面的正规匹配。
 
-</detail>
 
 
-
-<detail><summary>フォルダやファイル名の一括置換</summary>
+### フォルダやファイル名の一括置換
 
 #### ファイル
 
-**shell**
-
-B-Shellが使えば下記方法で簡単にファイル名の変更ができる
+> **B-shell**
 
 ```shell
 for name in *.sql
@@ -43,7 +37,7 @@ mv $name ${name//searchString/replaceString}
 done
 ```
 
-**powershell**
+> **Powershell**
 
 ```powershell
 ls *.csv | Rename-Item -NewName {$_.name -replace "searchString","replaceString"}
@@ -51,7 +45,7 @@ ls *.csv | Rename-Item -NewName {$_.name -replace "searchString","replaceString"
 
 #### フォルダ
 
-**shell**
+> **B-shell**
 
 ```shell
 for name in `ls |sed "s/\///"`
@@ -60,7 +54,5 @@ mv $name ${name//searchString/replaceString}
 done
 ```
 
-</detail>
 
---To be continue--
 
