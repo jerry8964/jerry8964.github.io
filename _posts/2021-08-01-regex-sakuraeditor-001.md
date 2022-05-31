@@ -12,8 +12,6 @@ author: Jerry8964
 
 <detail><summary>指定した文字列を含めてない行の検索</summary>
 
-<p>
-
 **regex**
 
 サクラエディタで指定された文字列を含めっていない行を
@@ -26,15 +24,11 @@ author: Jerry8964
 
 > 在SakuraEditor里面搜索不包含指定字符的行的时候，可以使用上面的正规匹配。
 
-</p>
-
 </detail>
 
 
 
 <detail><summary>フォルダやファイル名の一括置換</summary>
-
-<p>
 
 #### ファイル
 
@@ -65,8 +59,6 @@ do
 mv $name ${name//searchString/replaceString}
 done
 ```
-
-</p>
 
 </detail>
 
