@@ -28,7 +28,9 @@ author: Jerry8964
 
 
 
-### 指定されたフォルダのファイル名の変更
+### フォルダやファイル名の置換
+
+#### ファイル
 
 **`shell`**
 
@@ -47,7 +49,16 @@ PowerShellなら、下記のやり方となる
 ls *.csv | Rename-Item -NewName {$_.name -replace "searchString","replaceString"}
 ```
 
+#### フォルダ
 
+**shell**
+
+```shell
+for name in `ls |sed "s/\///"`
+do
+mv $name ${name//searchString/replaceString}
+done
+```
 
 
 
