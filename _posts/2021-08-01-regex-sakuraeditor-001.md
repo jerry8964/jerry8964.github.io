@@ -10,11 +10,11 @@ author: Jerry8964
 
 
 
+<detail><summary>指定した文字列を含めてない行の検索</summary>
 
+<p>
 
-### 指定した文字列を含めていない行の検索
-
-**`regex`**
+**regex**
 
 サクラエディタで指定された文字列を含めっていない行を
 
@@ -26,13 +26,19 @@ author: Jerry8964
 
 > 在SakuraEditor里面搜索不包含指定字符的行的时候，可以使用上面的正规匹配。
 
+</p>
+
+</detail>
 
 
-### フォルダやファイル名の置換
+
+<detail><summary>フォルダやファイル名の一括置換</summary>
+
+<p>
 
 #### ファイル
 
-**`shell`**
+**shell**
 
 B-Shellが使えば下記方法で簡単にファイル名の変更ができる
 
@@ -43,7 +49,7 @@ mv $name ${name//searchString/replaceString}
 done
 ```
 
-PowerShellなら、下記のやり方となる
+**powershell**
 
 ```powershell
 ls *.csv | Rename-Item -NewName {$_.name -replace "searchString","replaceString"}
@@ -60,7 +66,9 @@ mv $name ${name//searchString/replaceString}
 done
 ```
 
+</p>
 
+</detail>
 
 --To be continue--
 
