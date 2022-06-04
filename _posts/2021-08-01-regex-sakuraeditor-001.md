@@ -5,7 +5,7 @@ date: 2021-08-01
 tags: [doc, regex, linux]
 comments: true
 pinned: true
-toc: false
+toc: true
 author: Jerry8964
 ---
 
