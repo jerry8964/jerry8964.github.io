@@ -4,6 +4,7 @@ title:  "仕事便利帳"
 date: 2021-08-01
 tags: [doc, regex, linux]
 comments: true
+pinned: true
 toc: false
 author: Jerry8964
 ---
