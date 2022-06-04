@@ -49,10 +49,6 @@ layout: default
 
         <div clsss="meta">
           
-          <span class="author">
-            {{ post.author }}
-          </span>
-
           <span class="date">
             {{ post.date | date: "%Y-%m-%d" }}
           </span>
@@ -107,13 +103,16 @@ layout: default
         </ul>
       </div>
 
-      <div class="entry">
-        {{ post.excerpt | truncate: 200 }}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endunless %}
+      <div class="post-excerpt">
+          {%   if post.content contains site.excerpt_separator or post.content != post.excerpt %}{{ post.excerpt }}
+          {%   else %}{{ post.content | lstrip | split: "
+" | first }}{% endif %}
+          <p>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+          </p>
+        </div>
+    </article>  
+    {% endunless %}
   {% endfor %}
 </div>
 
