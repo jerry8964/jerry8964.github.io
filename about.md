@@ -6,12 +6,17 @@ permalink: /about/
 
 
 
-## 简介
+## About me
 
-目前在日本东京从事IT方面的工作。
+As a IT Engineer working in Tokyo.
+I like all of beautifull things.
+Such as amazing view, delicious food, photos etc.
+As well I like photos things, but after come to Japan,
+I spend almost all of my time to work and sleep,
+and let my camera sleep there became a junk thing...
 
-本博客主要记录一些日常用到的技术内容，和自己总结或者学习的内容。
-
+I try to write something in my life and work.
+What will it be ? Time will tell everything.
 
 ### 技能Keywords
 
