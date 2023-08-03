@@ -1,11 +1,8 @@
 ## 个人博客
 
 ### 简介
-  博客的记录主要是中文，
-  但是一些技术文章的转载不限于中文，日语和英语的文章也可能会转载。<br>
-  由于不是一个很认真的程序员，所以没有专注的语言。<br>
-  Java，Python之类的都有使用过，但谈不上熟练更别说精通,<br>
-  日常工作中，也可能会用到VBA，SQL-Server之类的知识，也会一并记录下来。<br>
+    Just try to write a bog when I have time. About IT tech and my life sometimes.
+    I use Python and VBA, like Linux OS but cant use it in my worktime.
   
 > 2022.06 : 近期使用VB的几率略有上升，对VB的语法慢慢的有了一些了解。<br>
 
