@@ -1,20 +1,9 @@
 ## 个人博客
 
-### 简介
-  博客的记录主要是中文，
-  但是一些技术文章的转载不限于中文，日语和英语的文章也可能会转载。<br>
-  由于不是一个很认真的程序员，所以没有专注的语言。<br>
-  Java，Python之类的都有使用过，但谈不上熟练更别说精通,<br>
-  日常工作中，也可能会用到VBA，SQL-Server之类的知识，也会一并记录下来。<br>
+### About
+> Welcome to my blog – a nexus where the worlds of banking, technology, and personal musings converge. Here, I delve into the nuances of VBA and Python, my tools of choice that empower me to craft innovative solutions for banking clients. This blog is not just a repository of technical know-how but also a reflection of my journey through the intricate tapestry of the finance sector, woven with the threads of code. Whether you're here to pick up a snippet of code or a slice of life, I hope to offer valuable insights and stir thoughtful dialogue. 
   
-> 2022.06 : 近期使用VB的几率略有上升，对VB的语法慢慢的有了一些了解。<br>
-
-
-
-### 致谢
-> 此博客的原型来自于博主**lemonchann**<br> 
-> 下面是他的GitHub地址
-> 
-> https://github.com/lemonchann
+### Thanks
+> Inspired by https://github.com/lemonchann
 
 
