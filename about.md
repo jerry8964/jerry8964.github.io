@@ -20,7 +20,7 @@ What will it be ? Time will tell everything.
 
 ### 技能Keywords
 
-Linux, Java, Python, Oracle, SQL-Server，VBA...
+Linux, Java, Python, Oracle, SQL-Server，VBA.
 
 
                          --2022.06.04
