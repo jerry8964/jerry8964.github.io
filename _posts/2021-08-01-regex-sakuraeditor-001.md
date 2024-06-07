@@ -57,3 +57,65 @@ done
 
 
 
+### ファイルの更新日付によって指定フォルダ下に移動する
+
+> B-shell
+
+**指定日付のみのファイル操作したいなら**
+
+```bash
+mkdir -p 202405 && find . -maxdepth 1 -type f -newermt 2024-05-01 ! -newermt 2024-06-01 -exec mv "{}" 202405/ \;
+```
+
+
+
+**すべてのファイルを処理したい場合**
+
+```bash
+#!/bin/bash
+
+# Loop through all files in the current directory
+for file in *; do
+  if [ -f "$file" ]; then
+    # Get the last modified date of the file in YYYYMMDD format
+    mod_date=$(date -r "$file" +"%Y%m%d")
+    
+    # Create the directory if it doesn't exist
+    mkdir -p "$mod_date"
+    
+    # Move the file to the directory
+    mv "$file" "$mod_date/"
+  fi
+done
+
+# If you dont want to zip the folder , just move the line below.
+# Loop through all directories in the current directory
+for dir in */; do
+  # Remove the trailing slash
+  dir=${dir%/}
+  
+  # Zip the directory
+  zip -r "$dir.zip" "$dir"
+  
+  # Optionally, remove the directory after zipping
+  rm -rf "$dir"
+done
+
+```
+
+・実行権限を付与する
+
+```bash
+chmod +x move_files_by_date.sh
+```
+
+・実行する
+
+```bash
+./move_files_by_date.sh
+```
+
+
+
+
+
