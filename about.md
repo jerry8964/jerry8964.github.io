@@ -17,5 +17,5 @@ Try to record something here when I learning something.
 
 Linux, Java, Python, Oracle, SQL-Server，VBA, UiPath, AWS
 
-                         --last update 2024.11.19
+--last update 2024.11.19
 
