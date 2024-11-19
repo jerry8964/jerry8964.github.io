@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "仕事便利帳"
-date: 2021-08-01
+date: 2024-06-05:w
 tags: [doc, regex, linux]
 comments: true
 pinned: true
-toc: true
+toc: false
 author: Jerry8964
 ---
 
