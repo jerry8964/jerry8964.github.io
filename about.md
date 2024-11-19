@@ -8,14 +8,14 @@ permalink: /about/
 
 ## About me
 
-Come from China and work as an IT Engineer in Tokyo.
-Like photograph and traval around.
-Try to record something here when I learning something.
+Come from China and work as an IT Engineer in Tokyo.<br>
+Like photograph and traval around.<br>
+Try to record something here when I am learning something.<br>
 
 
 ### Keywords
 
-Linux, Java, Python, Oracle, SQL-Server，VBA, UiPath, AWS
+Linux, Java, Python, Oracle, SQL-Server，VBA, UiPath, AWS<br>
 
---last update 2024.11.19
+.last update 2024.11.19
 
