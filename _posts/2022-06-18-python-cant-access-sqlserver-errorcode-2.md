@@ -9,6 +9,8 @@ author: Jerry8964
 
 
 
+Summary:　上記エラーの調査及び対応方法。
+
 ## 背景
 
 Windows system, remote SQL-Server. 

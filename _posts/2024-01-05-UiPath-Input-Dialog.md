@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "使用Input Dialo创建Droplist"
+title: "Use Input Dialog create a dropdown list in UiPath"
 date:   2024-01-05
 tags: [UiPath]
 comments: false
@@ -8,6 +8,8 @@ author: Jerry8964
 ---
 
 
+
+Summary: How to create a dropdown list in UiPath.
 
 ## 背景
 

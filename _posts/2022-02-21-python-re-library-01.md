@@ -11,6 +11,10 @@ author: Jerry8964
 
 
 
+
+
+Summary: re library of Python. from website but I transate some of them for reference.
+
 ## 简单说明
 
 re库是Python的一个内置模块，使用的时候直接引用即可。

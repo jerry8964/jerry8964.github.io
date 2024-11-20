@@ -9,6 +9,8 @@ author: Jerry8964
 
 
 
+Summary: When I want to call a VBA macro from a VBS, error occured...
+
 ## VBSからVBAを呼び出すとき、エラーが発生
 
 

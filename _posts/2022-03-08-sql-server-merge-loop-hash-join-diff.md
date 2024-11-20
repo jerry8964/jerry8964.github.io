@@ -9,6 +9,8 @@ author: Jerry8964
 
 
 
+Summary: SQLのJoinの種類と区別。
+
 ## SQLのJoin
 
 

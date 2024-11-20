@@ -12,6 +12,8 @@ author: Jerry8964
 
 
 
+Summary: What is the difference about Iterator and Generator, and how to code them.
+
 ## 概念
 
 迭代器与生成器通常一起出现，在概念上很容易分不清楚。

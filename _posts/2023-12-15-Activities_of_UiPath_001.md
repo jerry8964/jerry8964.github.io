@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Activities Of UiPath 01"
+title: "Activities Of UiPath"
 date:   2023-12-15
 tags: [UiPath]
 comments: true
