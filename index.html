@@ -43,9 +43,9 @@ layout: default
   {% for post in site.posts %}
     {% if post.pinned==true %}
       <article class="post pinned">
-        <h1>
+        <h2>
             <span title="pinned"><i data-feather="anchor"></i></span><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-        </h1>
+        </h2>
 
         <div clsss="meta">
           
@@ -83,9 +83,9 @@ layout: default
   {% for post in paginator.posts %}
     {% unless post.pinned %}
     <article class="post">
-      <h1>
+      <h2>
         <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h1>
+      </h2>
 
       <div clsss="meta">
         <span class="date">
@@ -133,15 +133,15 @@ layout: default
   {% endif %}
 </div>
 
-<!--不算子网站访客统计-->
+<!--sub website is not counted-->
 <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js">
 </script>
-<!-- pv的方式，单个用户连续点击n篇文章，记录n次访问量 -->
+<!-- count of PV, every click will be counted, even they are the same operator(user) -->
 <div align="center">
 	<span id="busuanzi_container_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;">
 		View:<span id="busuanzi_value_site_pv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
 	</span>
-	<!-- uv的方式，单个用户连续点击n篇文章，只记录1次访客数 -->
+	<!-- count of UV, mutip click from one user will be counted only 1 time. -->
 	<span id="busuanzi_container_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;">
 		User:<span id="busuanzi_value_site_uv" style="font-family:Consolas;color:Silver;font-size:12px;"></span>
 	</span>

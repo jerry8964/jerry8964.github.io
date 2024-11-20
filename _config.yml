@@ -5,7 +5,7 @@
 # Name of your site (displayed in the header)
 name: "Jerry's blog"
 # Short bio or description (displayed in the header)
-description: "Something about my word and etc."
+description: "Write something about my work..."
 
 #
 # Flags below are optional
@@ -15,17 +15,18 @@ description: "Something about my word and etc."
 # avatar: https://github.com/jerry8964/公众号二维码.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 # favicon: https://github.com/jerry8964
+favicon: https://th.bing.com/th/id/OIP.47oBs0VjS97D7l4yWyWLuwHaHa?rs=1&pid=ImgDetMain
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
 # it from the list(Delete '- name: ' and 'url: ', too!)
 navigation:
   - name: Blog
-    url: /blog
+    url: /
   - name: About
     url: /about
   - name: Archive
-    url: /
+    url: /archive
   - name: Tags
     url: /tags
 
