@@ -1,6 +1,6 @@
 ---
 layout: page
-# title: Self description
+title: Description & Logs
 permalink: /about/
 ---
 
@@ -13,5 +13,7 @@ This is where I try to record things I learn along the way.<br>
 ## Keywords
 Linux, Java, Python, Oracle, SQL Server, VBA, UiPath, AWS<br>
 
-Last updated: 2024.11.19
+## Change logs
+2021.05.01  start.
+2024.11.20  change post title to H3 size and add summary.
 
