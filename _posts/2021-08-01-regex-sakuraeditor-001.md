@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "仕事便利帳"
+title:  "仕事便利帳(固定)"
 date: 2024-06-05:w
 tags: [doc, regex, linux]
 comments: true
