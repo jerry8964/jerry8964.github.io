@@ -15,7 +15,7 @@ description: "Write something about my work..."
 # avatar: https://github.com/jerry8964/公众号二维码.png
 # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 # favicon: https://github.com/jerry8964
-favicon: https://th.bing.com/th/id/OIP.47oBs0VjS97D7l4yWyWLuwHaHa?rs=1&pid=ImgDetMain
+favicon: https://w7.pngwing.com/pngs/141/717/png-transparent-brand-logo-white-letter-j-white-text-logo-thumbnail.png
 
 # Tabs in header. There are 'Blog', 'About', 'Archive', 'Tags'
 # and URL Link(e.g. 'Theme' tab below) tabs. If you don't need one, just delete
@@ -37,7 +37,7 @@ excerpt_separator: <!-- more -->
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  #weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
+#  weibo: frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
 #  behance: # https://www.behance.net/<username>
 #  dribbble:
 #  zhihu: 
