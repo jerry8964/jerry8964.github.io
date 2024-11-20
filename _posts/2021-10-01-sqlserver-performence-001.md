@@ -9,6 +9,8 @@ author: Jerry8964
 
 
 
+Summary: Consider about SQL performence.
+
 ### Query from a table
 
 * 如果表里面的数据很少，全表扫描(Table Scan)是最有效的方式。

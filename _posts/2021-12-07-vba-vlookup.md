@@ -9,6 +9,8 @@ author: Jerry8964
 
 
 
+Summary: Usage of system function `vlookup`
+
 ## VLOOKUP
 
 エクセル業務の際、なるべく効率的に作業したいという方も多いと思います。また、必要なデータを目視で探して手入力していては工数もかかり、ミスも起こりやすいです。

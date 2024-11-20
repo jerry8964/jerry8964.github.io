@@ -10,6 +10,10 @@ author: Jerry8964
 
 
 
+
+
+Summary: What is Jp1 and what it for.
+
 ### はじめに
 
 ジョブ自動管理システムを理解するため、JP１の情報を調べて、記録しておきます。
