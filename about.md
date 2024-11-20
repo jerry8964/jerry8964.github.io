@@ -1,21 +1,17 @@
 ---
 layout: page
-title: About
+# title: Self description
 permalink: /about/
 ---
 
 
+## About Me
+I am from China and currently working as an IT Engineer in Tokyo.<br>
+I enjoy photography and traveling.<br>
+This is where I try to record things I learn along the way.<br>
 
-## About me
+## Keywords
+Linux, Java, Python, Oracle, SQL Server, VBA, UiPath, AWS<br>
 
-Come from China and work as an IT Engineer in Tokyo.<br>
-Like photograph and traval around.<br>
-Try to record something here when I am learning something.<br>
-
-
-### Keywords
-
-Linux, Java, Python, Oracle, SQL-Server，VBA, UiPath, AWS<br>
-
-.last update 2024.11.19
+Last updated: 2024.11.19
 
