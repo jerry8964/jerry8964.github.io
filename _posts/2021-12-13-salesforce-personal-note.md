@@ -7,9 +7,7 @@ comments: true
 author: Jerry8964
 ---
 
-
-
-Summary: Learning note about Salesforce.
+**Summary**: Learning note about Salesforce.
 
 ## 第一回
 

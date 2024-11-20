@@ -9,11 +9,7 @@ author: Jerry8964
 
 
 
-
-
-
-
-Summary: re library of Python. from website but I transate some of them for reference.
+**Summary**: re library of Python. from website but I transate some of them for reference.
 
 ## 简单说明
 

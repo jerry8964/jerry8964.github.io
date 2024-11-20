@@ -9,10 +9,7 @@ author: Jerry8964
 ---
 
 
-
-
-
-Summary: What is Jp1 and what it for.
+**Summary**: What is Jp1 and what it for.
 
 ### はじめに
 

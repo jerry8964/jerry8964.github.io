@@ -9,7 +9,7 @@ author: Jerry8964
 
 
 
-在VBA的编写中，经常需要给变量赋值 ，那么Empty，Null，Nothing，空字符串与vbNullString的区别是什么呢。
+**Summary**: 在VBA的编写中，经常需要给变量赋值 ，那么Empty，Null，Nothing，空字符串与vbNullString的区别是什么呢。
 
 ### Empty
 

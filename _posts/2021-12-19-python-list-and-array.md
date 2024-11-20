@@ -8,8 +8,7 @@ author: Jerry8964
 ---
 
 
-
-Summary: List and arrary of python, difference and which one to use?
+**Summary**: List and arrary of python, difference and which one to use?
 
 虽然列表（list）既灵活又简单，但面对各类需求时，我们可能会有更好的选择。比如，要存放1000万个浮点数的话，数组（array）的效率要高得多，因为数组在背后存的并不是`float`对象，而是数字的机器翻译，也就是字节表述。这一点就跟C语言中的数组一样。再比如说，如果需要频率对序列做先进先出（FIFO）的操作，双端队列（deque）的速度应该会更快。
 

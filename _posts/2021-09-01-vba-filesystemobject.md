@@ -9,9 +9,7 @@ author: Jerry8964
 
 
 
-
-
-**一句话总结**
+**Summary**
 
 > 因为VBA的FileSystemObject.GetFolder.Files返回的是一个迭代对象，所以如果对当前文件夹下面的文件有操作的话会被视为新的文件，而增加到返回的队列里。
 

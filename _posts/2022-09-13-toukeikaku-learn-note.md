@@ -9,9 +9,7 @@ author: Jerry8964
 
 
 
-
-
-Summary: Book read memo.
+**Summary**: Book read memo.
 
 # 金融・経済のための統計学入門 ---藤田康範
 

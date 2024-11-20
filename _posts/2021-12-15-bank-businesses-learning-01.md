@@ -8,9 +8,7 @@ toc: false
 author: Jerry8964
 ---
 
-
-
-Summary: 証券用語の定義（a collection）
+**Summary**: 証券用語の定義（a collection）
 
 ## 用語定義
 

@@ -12,7 +12,7 @@ author: Jerry8964
 
 
 
-Summary: What is the difference about Iterator and Generator, and how to code them.
+**Summary**: What is the difference about Iterator and Generator, and how to code them.
 
 ## 概念
 

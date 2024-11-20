@@ -8,8 +8,6 @@ author: Jerry8964
 
 ---
 
-
-
 Certainly! Here are some commonly used UiPath activities with their names in English and descriptions in Chinese:
 
 1. **Sequence (序列)**: 用作一系列活动的容器。
