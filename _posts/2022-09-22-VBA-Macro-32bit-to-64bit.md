@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "VBA 32bit→64bit変更の対応パターン"
-date:   2024-11-20
-tags: [AWS]
+date:   2022-09-22
+tags: [VBA]
 comments: false
 author: Jerry8964
 ---
